@@ -1,11 +1,45 @@
 {
-	"name": "Layout 1",
+	"name": "Restaurant",
 	"layers": [
 		{
 			"name": "Layer 0",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [],
+			"instances": [
+				{
+					"type": "TiledBackground2",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 2,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -80,
+						"y": 0,
+						"width": 2085,
+						"height": 1080,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 911597795226263,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
@@ -43,6 +77,6 @@
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,
-	"projection": "perspective",
+	"projection": "orthographic",
 	"eventSheet": "Event sheet 1"
 }

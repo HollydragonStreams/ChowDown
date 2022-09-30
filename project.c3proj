@@ -5,10 +5,22 @@
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [],
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		}
+	],
 	"uniqueId": "swpmotg0331",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"TiledBackground",
+			"TiledBackground2"
+		],
 		"subfolders": []
 	},
 	"autosaveData": null,
@@ -19,7 +31,7 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Restaurant"
 		],
 		"subfolders": []
 	},
@@ -128,7 +140,7 @@
 		]
 	},
 	"properties": {
-		"description": "",
+		"description": "An automated restaurant simulator",
 		"version": "1.0.0.0",
 		"author": "Rocket Dragon",
 		"authorEmail": "hollydragonstreams@gmail.com",
@@ -179,5 +191,5 @@
 	},
 	"viewportWidth": 1920,
 	"viewportHeight": 1080,
-	"firstLayout": null
+	"firstLayout": "Restaurant"
 }
