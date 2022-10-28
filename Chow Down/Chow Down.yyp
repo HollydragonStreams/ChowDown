@@ -3,6 +3,10 @@
   "resourceVersion": "1.6",
   "name": "Chow Down",
   "resources": [
+    {"id":{"name":"Counter","path":"sprites/Counter/Counter.yy",},"order":2,},
+    {"id":{"name":"FloorTile","path":"sprites/FloorTile/FloorTile.yy",},"order":0,},
+    {"id":{"name":"FurnitureCounter","path":"tilesets/FurnitureCounter/FurnitureCounter.yy",},"order":1,},
+    {"id":{"name":"GUI_Object","path":"objects/GUI_Object/GUI_Object.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
